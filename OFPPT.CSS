@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #eef2f3, #d9e4f5);
+}
+.hero {
+  background: linear-gradient(135deg, #0944aa, #7f969c);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px 20px 60px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.hero img {
+  width: 110px;
+  background: white;
+  padding: 8px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  margin: 10px 0 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 8px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: rgb(10, 130, 12);
+  transition : 0.3s ease;
+}
+.top-buttons {
+  margin-top: 15px;
+}
+.card {
+  background: white;
+  width: 85%;
+  margin: -40px auto 40px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+h2 {
+  color: #2f00ea;
+  margin-bottom: 15px;
+}
+h3 {
+  margin: 15px 0 10px;
+}
+.options,
+.modules-list {
+  padding: 0;
+}
+.options li,
+.modules-list li {
+  background: #f1f5ff;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 70%;
+}
+.page-header {
+  background: #0800ea;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+form {
+  margin-top: 15px;
+}
+form input,
+form select {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background:  #5b66e5;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+form button:hover {
+  opacity: 0.9;
+}
+.titre {
+    color:rgb(10, 130, 12); ;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .options li,
+  .modules-list li {
+    width: 90%;
+  }
+}
+.modules-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.modules-card {
+  background: white;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  text-align: center;
+}
+.modules-title {
+  color: #0800ea;
+  margin-bottom: 20px;
+}
+.modules-grid {
+  display: grid;
+  margin-top: 20px;
+}
+.module-item {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.back-btn {
+  margin-top: 25px;
+}
